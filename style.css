@@ -9,15 +9,18 @@
     margin: 0 auto;
 }
 
+li{
+    list-style: none;
+}
 .navbar{
-    width: 100%;
+    width: 100wh;
     background: #5855E7;
 }
 
 .navbar__list{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     align-items: center;
 }
@@ -27,6 +30,9 @@
     list-style: none;
 }
 
+.header{
+    width: 100wh;
+}
 .navbar__list__menu__item{
     color: #FFF;
 font-family: Gilroy;
@@ -192,3 +198,367 @@ line-height: normal;
         display: block;
     }
 }
+@media only screen and (max-width:500px){
+   
+    .navbar__list__item img{
+        width: 60px;
+    }
+
+    .navbar__menu__icon{
+        width: 20px;
+    }
+    .navbar__phone__icon{
+        width: 20px;
+        margin-right: -30px;
+    }
+    .navbar__list__menu{
+        display: none;
+    }
+
+    .navbar__phone__icon{
+        display: block;
+    }
+
+    .navbar__menu__icon{
+        display: block;
+    }
+}
+
+.main{
+    width: 100%;
+}
+
+.main__list{
+    display: flex;
+}
+
+.main__list__item:nth-child(2){
+    width: 100%;
+}
+
+.main__list__item img{
+    width: 100%;
+}
+.main__list__item__title{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.main__list__item__title h2{
+    color: #000;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 40px;
+}
+
+.main__list__item__title p{
+    color: #000;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 55px;
+}
+.main__list__item__title strong{
+    color: #5855E7;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.main_button1{
+    width: 220px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #6347EB;
+border: none;
+color: #FFF;
+font-family: Gilroy;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.main__button2{
+    width: 239px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 3px solid #6347EB;
+
+color: #000;
+font-family: Gilroy;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 40px;
+}
+
+@media only screen and (max-width:1200px){
+
+    .main__list__item__title h2{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .main__list__item__title p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 200px;
+        height: 50px;
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+
+    .main__list__item__title strong{
+        font-size: 28px;
+    }
+    .main__list__item__title h2{
+        font-size: 28px;
+        margin-bottom: 18px;
+    }
+
+    .main__list__item__title p{
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 180px;
+        height: 48px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    .main__list__item__title strong{
+        font-size: 25px;
+    }
+    .main__list__item__title h2{
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+
+    .main__list__item__title p{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 160px;
+        height: 45px;
+        font-size: 23px;
+        
+border: 2.5px solid #6347EB;
+    }
+}
+
+
+@media only screen and (max-width:850px){
+
+    .main__list__item__title strong{
+        font-size: 25px;
+    }
+    .main__list__item__title h2{
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+
+    .main__list__item__title p{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 140px;
+        height: 42px;
+        font-size: 21px;
+        
+border: 2.4px solid #6347EB;
+    }
+}
+
+@media only screen and (max-width:750px){
+
+
+    .main{
+        margin-top: 30px;
+    }
+    .main__list__item__title strong{
+        font-size: 22px;
+    }
+    .main__list__item__title h2{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .main__list__item__title p{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 120px;
+        height: 40px;
+    
+border: 2px solid #6347EB;
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width:700px){
+
+
+    .main{
+        margin-top: 30px;
+    }
+
+    .main__list{
+        display: block;
+    }
+    .main__list__item div{
+        margin: auto;
+    }
+    .main__list__item__title strong{
+        font-size: 22px;
+    }
+    .main__list__item__title h2{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .main__list__item img{
+        display: none;
+    }
+    .main__list__item__title p{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        
+border: 1.8px solid #6347EB;
+    }
+}
+
+@media only screen and (min-width:400px){
+
+
+    .eclips{
+        width: 100%;
+position: relative;
+transform: translateY(50%);
+z-index: -1;
+display: none;
+    }
+  
+}
+@media only screen and (max-width:400px){
+
+
+    .main {
+
+    }
+
+    .eclips{
+        width: 100%;
+position: relative;
+transform: translateY(50%);
+z-index: -1;
+    }
+    .main__list{
+        background-color: white;
+        display: block;
+    }
+    .main__list__item div{
+        margin: auto;
+    }
+    .main__list__item__title strong{
+        font-size: 22px;
+    }
+    .main__list__item__title h2{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .main__list__item img{
+        display: none;
+    }
+    .main__list__item__title p{
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        
+border: 1.2px solid #6347EB;
+    }
+}
+
+
+@media only screen and (max-width:320px){
+
+
+    .eclips{
+        width: 100%;
+position: relative;
+transform: translateY(50%);
+z-index: -1;
+    }
+    .main__list{
+        background-color: white;
+        display: block;
+    }
+    .main__list__item div{
+        margin: auto;
+    }
+    .main__list__item__title strong{
+        font-size: 20px;
+    }
+    .main__list__item__title h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .main__list__item img{
+        display: none;
+    }
+    .main__list__item__title p{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .main_button1 , .main__button2{
+        width: 100px;
+        height: 37px;
+        font-size: 16px;
+        
+border: 1px solid #6347EB;
+    
+    }
+}
+
+
