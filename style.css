@@ -792,3 +792,277 @@ margin-bottom: 48px;
     }
     
 }   
+
+.blog{
+    width: 100%;
+    margin-top: 214px;
+    background-color: #5855E7;
+    padding-top: 73px;
+}
+
+
+.blog h2{
+    text-align: center;
+    margin-bottom: 100px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.blog__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blog__list__item{
+    margin-bottom: 80px;
+    /* justify-content: center; */
+    width: 30%;
+}
+
+.blog__list__item img{
+    width: 100%;
+    transform: scale(0.7);
+    border-radius: 50%;
+}
+
+.blog__list__item h3{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+}
+.blog__list__item p{
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+}
+
+
+@media only screen and (max-width:1200px){
+    .blog__list__item h3{
+        font-size: 20px;
+    }
+
+    .blog__list__item p{
+        font-size: 16px;
+    }
+    .blog__list__item img{
+        margin-bottom: 10px;
+        width: 100%;
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width:900px){
+    .blog__list__item h3{
+        font-size: 20px;
+    }
+
+    .blog__list__item p{
+        font-size: 16px;
+    }
+    .blog__list__item img{
+        width: 100%;
+        transform: scale(0.9);
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .blog__list__item h3{
+        font-size: 20px;
+    }
+
+    .blog{
+        padding-top: 20px;
+    }
+    .blog h2{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .blog__list__item {
+        width: auto;
+    }
+
+    .blog__list__item p{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .blog__list__item img{
+        width: 100%;
+        transform: scale(0.7);
+    }
+}
+
+.classroom{
+    margin-top: 100px;
+}
+.classroom h2{
+    color: #EEE;
+font-family: Gilroy;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+}
+
+.classroom h3{
+    color: #000;
+font-family: Gilroy;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+top: -50px;
+}
+
+.classroom__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.classroom__list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 301px;
+height: 530px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #5855E7;
+box-shadow: 0px 0px 35px 0px rgba(17, 17, 17, 0.25);
+margin-bottom: 50px;
+padding: 20px;
+}
+
+.classroom__list__item img{
+    width: 100%;
+}
+
+.classroom__list__item h4{
+    color: #FAFBFD;
+font-family: Gilroy;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+
+.classroom__list__item h5{
+    color: #FFF;
+    margin: 10px 0px;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.classroom__list__item p{
+    text-align: center;
+    color: #FFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.classroom__list__item button{
+    width: 147px;
+height: 32px;
+flex-shrink: 0; 
+border-radius: 5px;
+background: #FFF;
+color: #6347EB;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+margin-top: 30px;
+}
+
+
+.contact__list{
+    display: flex;
+    background-color: #5855E7;
+}
+
+.contact__list__item{
+    padding: 20px;
+}
+.contact__list img{
+    width: 100%;
+}
+
+input{
+height: 52px;
+    width: 60%;
+    padding-left: 20px;
+    color: #000;
+font-family: Gilroy;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 30px;
+}
+
+textarea{
+    width: 100%;
+    display: block;
+}
+.contact__list__item h2{
+    color: #FFF;
+    margin-bottom: 20px;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    overflow-x: hidden;
+}
+
+.contact__list__item p{
+    padding-left: 20px;
+    color: #FFF;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+margin-bottom: 30px;
+font-weight: 400;
+line-height: normal;
+}
+
+.contact__list__item button{
+    width: 197px;
+height: 52px;
+flex-shrink: 0;
+color: #000;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+
